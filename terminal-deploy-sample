@@ -1,0 +1,57 @@
+C:\Users\MyWor> npx create-next-app@latest
+√ What is your project named? ... hi
+Creating a new Next.js app in C:\Users\MyWor\hi.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+
+added 17 packages, and audited 18 packages in 5s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Installing devDependencies:
+- eslint
+- eslint-config-next
+
+
+added 212 packages, and audited 230 packages in 10s
+
+78 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Success! Created hi at C:\Users\MyWor\hi
+
+
+C:\Users\MyWor>cd hi
+
+C:\Users\MyWor\hi>yarn dev
+'yarn' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\MyWor\hi>npm run dev
+
+> hi@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 1932 ms (173 modules)
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 1250 ms (206 modules)
+Terminate batch job (Y/N)? y
+
+C:\Users\MyWor\hi>code .
